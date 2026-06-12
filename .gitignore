@@ -33,3 +33,14 @@ core.R-*
 # Temporary files
 *.tmp
 Rplot*.png
+
+# macOS
+.DS_Store
+
+# Python virtual environment (local flower/fruit test harness)
+.venv/
+
+# Local flower/fruit inference test data (large / regenerable via run_inat_download.R)
+inat_burnt_images/
+burnt_only_observations.csv
+inat_download.log
